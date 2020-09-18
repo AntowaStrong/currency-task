@@ -1,4 +1,4 @@
-### How to RUN?
+### How to RUN
 ---
 
 1. Go to project folder and run following command: docker-compose up
