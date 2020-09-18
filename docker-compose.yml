@@ -48,6 +48,15 @@ services:
       links:
         - mysql 
 
+    frontend:
+      build: phpdocker/frontend
+      container_name: currency-frontend
+      working_dir: /application
+      volumes:
+        - ./sources/frontend:/application
+      ports:
+        - "9054:8080"
+    
     phpmyadmin:
       depends_on:
         - mysql

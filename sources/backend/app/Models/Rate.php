@@ -23,7 +23,7 @@ class Rate extends Model
      * @var array
      */
     static private $currencies = [
-        'USD', 'EUR', 'CZk'
+        'USD', 'EUR', 'CZK'
     ];
 
     /**
